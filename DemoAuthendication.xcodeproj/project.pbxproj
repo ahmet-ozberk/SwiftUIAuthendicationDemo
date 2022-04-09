@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E3CDAADD2800C4A500B5271E /* DemoAuthendicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAADC2800C4A500B5271E /* DemoAuthendicationApp.swift */; };
-		E3CDAADF2800C4A500B5271E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAADE2800C4A500B5271E /* ContentView.swift */; };
 		E3CDAAE12800C4A800B5271E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CDAAE02800C4A800B5271E /* Assets.xcassets */; };
 		E3CDAAE42800C4A900B5271E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CDAAE32800C4A900B5271E /* Preview Assets.xcassets */; };
 		E3CDAAEE2800C4A900B5271E /* DemoAuthendicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAAED2800C4A900B5271E /* DemoAuthendicationTests.swift */; };
 		E3CDAAF82800C4A900B5271E /* DemoAuthendicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAAF72800C4A900B5271E /* DemoAuthendicationUITests.swift */; };
 		E3CDAAFA2800C4A900B5271E /* DemoAuthendicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAAF92800C4A900B5271E /* DemoAuthendicationUITestsLaunchTests.swift */; };
+		E3CDAB082800C56600B5271E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAB072800C56600B5271E /* SplashView.swift */; };
+		E3CDAB0E2800C75800B5271E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAB0D2800C75800B5271E /* Constant.swift */; };
+		E3CDAB112800C7CA00B5271E /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAB102800C7CA00B5271E /* SplashModel.swift */; };
+		E3CDAB142800D1A500B5271E /* CustomRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAB132800D1A500B5271E /* CustomRadius.swift */; };
+		E3CDAB162800D81200B5271E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAB152800D81200B5271E /* LoginView.swift */; };
+		E3CDAB182800D99E00B5271E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAB172800D99E00B5271E /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		E3CDAAD92800C4A500B5271E /* DemoAuthendication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAuthendication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CDAADC2800C4A500B5271E /* DemoAuthendicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthendicationApp.swift; sourceTree = "<group>"; };
-		E3CDAADE2800C4A500B5271E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3CDAAE02800C4A800B5271E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3CDAAE32800C4A900B5271E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3CDAAE92800C4A900B5271E /* DemoAuthendicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthendicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		E3CDAAF32800C4A900B5271E /* DemoAuthendicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthendicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CDAAF72800C4A900B5271E /* DemoAuthendicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthendicationUITests.swift; sourceTree = "<group>"; };
 		E3CDAAF92800C4A900B5271E /* DemoAuthendicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthendicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3CDAB072800C56600B5271E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		E3CDAB0D2800C75800B5271E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E3CDAB102800C7CA00B5271E /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
+		E3CDAB132800D1A500B5271E /* CustomRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadius.swift; sourceTree = "<group>"; };
+		E3CDAB152800D81200B5271E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E3CDAB172800D99E00B5271E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,13 @@
 		E3CDAADB2800C4A500B5271E /* DemoAuthendication */ = {
 			isa = PBXGroup;
 			children = (
+				E3CDAB122800D19300B5271E /* Components */,
+				E3CDAB0F2800C7B800B5271E /* Model */,
+				E3CDAB062800C55500B5271E /* View */,
 				E3CDAADC2800C4A500B5271E /* DemoAuthendicationApp.swift */,
-				E3CDAADE2800C4A500B5271E /* ContentView.swift */,
 				E3CDAAE02800C4A800B5271E /* Assets.xcassets */,
 				E3CDAAE22800C4A900B5271E /* Preview Content */,
+				E3CDAB0D2800C75800B5271E /* Constant.swift */,
 			);
 			path = DemoAuthendication;
 			sourceTree = "<group>";
@@ -125,6 +138,32 @@
 				E3CDAAF92800C4A900B5271E /* DemoAuthendicationUITestsLaunchTests.swift */,
 			);
 			path = DemoAuthendicationUITests;
+			sourceTree = "<group>";
+		};
+		E3CDAB062800C55500B5271E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3CDAB072800C56600B5271E /* SplashView.swift */,
+				E3CDAB152800D81200B5271E /* LoginView.swift */,
+				E3CDAB172800D99E00B5271E /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3CDAB0F2800C7B800B5271E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3CDAB102800C7CA00B5271E /* SplashModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3CDAB122800D19300B5271E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E3CDAB132800D1A500B5271E /* CustomRadius.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CDAADF2800C4A500B5271E /* ContentView.swift in Sources */,
+				E3CDAB162800D81200B5271E /* LoginView.swift in Sources */,
+				E3CDAB112800C7CA00B5271E /* SplashModel.swift in Sources */,
 				E3CDAADD2800C4A500B5271E /* DemoAuthendicationApp.swift in Sources */,
+				E3CDAB182800D99E00B5271E /* RegisterView.swift in Sources */,
+				E3CDAB082800C56600B5271E /* SplashView.swift in Sources */,
+				E3CDAB0E2800C75800B5271E /* Constant.swift in Sources */,
+				E3CDAB142800D1A500B5271E /* CustomRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

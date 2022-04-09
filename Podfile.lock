@@ -1,0 +1,16 @@
+PODS:
+  - SSToastMessage (1.0.0)
+
+DEPENDENCIES:
+  - SSToastMessage (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SSToastMessage
+
+SPEC CHECKSUMS:
+  SSToastMessage: 36f6bb3175e78b3424a03946a6c3d2588b322e0a
+
+PODFILE CHECKSUM: 999afc9b4f5c8e4e628924170a696f23cc4146cb
+
+COCOAPODS: 1.11.3
